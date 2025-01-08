@@ -17,21 +17,6 @@
   --cards: #f3f3f3;
 }
 
-@font-face {
-  font-family: 'Gilroy';
-  src: url(./gilroy/Gilroy-Regular.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'Gilroy';
-  src: url(./gilroy/Gilroy-Medium.ttf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: 'Gilroy';
-  src: url(./gilroy/Gilroy-Semibold.ttf);
-  font-weight: 600;
-}
 /* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
