@@ -29,16 +29,16 @@
   margin: 0 auto;
 }
 
-section .contact-us {
+section.contact-us {
   padding-bottom: 60px;
   padding-top: 30px;
 }
 
-section .catalog {
+section.catalog {
   padding-bottom: 60px;
 }
 
-section .sale {
+section.sale {
   padding-top: 60px;
   padding-bottom: 30px;
 }
@@ -55,16 +55,16 @@ section .sale {
     margin: 0 auto;
   }
 
-  section .contact-us {
+  section.contact-us {
     padding-bottom: 80px;
     padding-top: 40px;
   }
 
-  section .catalog {
+  section.catalog {
     padding-bottom: 80px;
   }
 
-  section .sale {
+  section.sale {
     padding-top: 80px;
     padding-bottom: 40px;
   }
@@ -82,16 +82,16 @@ section .sale {
     margin: 0 auto;
   }
 
-  section .contact-us {
+  section.contact-us {
     padding-bottom: 100px;
     padding-top: 50px;
   }
 
-  section .catalog {
+  section.catalog {
     padding-bottom: 100px;
   }
 
-  section .sale {
+  section.sale {
     padding-top: 100px;
     padding-bottom: 50px;
   }
