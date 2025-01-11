@@ -146,7 +146,7 @@
 }
 @media screen and (min-width: 1158px){
     .contact-us-screen {
-        margin: 0;
+        margin: 0 65px;
         display: flex;       
       
     }
