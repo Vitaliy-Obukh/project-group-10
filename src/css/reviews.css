@@ -1,0 +1,120 @@
+.section-wrap {
+    background-color: #f4f4fd;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    font-family: "Gilroy", sans-serif;
+}
+
+.reviews {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.title-section-foto-reviews {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.91667;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ul-foto-reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.list-foto-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    width: 370px;
+    height: 272px;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    padding: 32px 36px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.foto-reviews {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+.info-team-reviews {
+    text-align: center;
+}
+
+.title-foto-reviews {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin: 0;
+}
+
+.text-foto-reviews {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.4);
+    margin: 0;
+}
+
+@media (max-width: 1279px) {
+    .ul-foto-reviews {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .list-foto-reviews {
+    width: 300px;
+        height: auto;
+        padding: 24px;
+    }
+
+    .title-section-foto-reviews {
+        font-size: 40px;
+    }
+
+    .list-foto-reviews:nth-child(3) {
+        display: none;
+        }
+}
+
+@media (max-width: 768px) {
+    .ul-foto-reviews {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-foto-reviews {
+        width: 100%;
+        max-width: 400px
+    }
+        
+    .title-section-foto-reviews {
+        font-size: 32px;
+    }
+    
+    .list-foto-reviews:nth-child(2),
+    .list-foto-reviews:nth-child(3) {
+        display: none;
+        }
+}
