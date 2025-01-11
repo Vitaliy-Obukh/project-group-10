@@ -90,23 +90,16 @@
 @media screen and (min-width: 1280px){
 
     .about-us{
-        width: 1200px;
+        width: 1280px;
     }  
-    
-    .about-us-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
       
       .about-us-cont {
         flex: 1;
-        margin-right: 40px; /* Отступ справа, чтобы не прижимать к картинке */
+        margin-right: 40px;
         margin-bottom: 0;
         max-width: 580px;
       }
     
-      
       .about-us-img {
         border-radius: 50px;
         width: 530px;
