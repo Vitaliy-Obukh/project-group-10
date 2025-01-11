@@ -92,7 +92,7 @@
 }
 .image-box-mobile {
     border-radius: 30px;
-    margin: 48px 28px;
+    margin-top: 28px;
     height: 512px;
     
 }
@@ -145,16 +145,17 @@
     }
 }
 @media screen and (min-width: 1158px){
-    .cont-contuct-us {
+    .contact-us-screen {
         margin: 0;
+        display: flex;       
+      
     }
-    .cont-contuct-us .container {
+    .contact-us-title {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
+        position: absolute;
+        top: 0;
     }
-   
+     
     .contact-us-form {
         width: 580px;
         height: 556px;
@@ -165,7 +166,8 @@
     .image-box-screen {
         display: block;
         width: 530px;
-        height: 556px;  
+        height: 556px;
+        margin-left: 40px;  
     }
     .image-box-mobile, .image-box-tablet {
         display: none;
@@ -174,9 +176,7 @@
         padding: 17px 63px;
         width: 160px;
         height: 52px;        
-    }
-
-   
+    }   
 }
 
         
