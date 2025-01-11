@@ -101,7 +101,10 @@
 }
 
 @media screen and (min-width: 768px) {
-    
+    .contact-us-title {
+        font-size: 48px;
+        line-height: 0.92;
+    }  
     .contact-us-form {
         width: 704px;
         height: 556px;
