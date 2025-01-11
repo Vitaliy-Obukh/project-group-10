@@ -55,9 +55,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .header-container {
-    padding-inline: 65px;
-  }
 
   .header-logo {
     margin-right: 203px;
