@@ -1,3 +1,154 @@
-<header class="header">
-  <div class="container header-container"></div>
+<header class="header-page">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a href="index.html" class="header-logo">WatchCharm</a>
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a href="index.html" class="header-nav-link current">Home</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#about_section" class="header-nav-link">About us</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#catalog_section" class="header-nav-link">Catalog</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#sale_section" class="header-nav-link">Sale</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#reviews_section" class="header-nav-link">Reviews</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#contact_section" class="header-nav-link">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+    <address class="socials">
+      <ul class="header-social-list">
+        <li class="header-social-item">
+          <a
+            href="https://www.facebook.com/goITclub/"
+            class="header-social-link"
+          >
+            <svg class="header-icons" width="20" height="20">
+              <use href="/img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-social-item">
+          <a
+            href="https://www.instagram.com/goitclub/"
+            class="header-social-link"
+          >
+            <svg class="header-icons" width="20" height="20">
+              <use href="/img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-social-item">
+          <a href="https://www.youtube.com/c/GoIT" class="header-social-link">
+            <svg class="header-icons" width="20" height="20">
+              <use href="/img/icons.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </address>
+    <div onclick="openModal()" class="header--mobile_menu" type="button">
+      <!-- <svg class="header-icon-menu">
+        <use href="/img/icons.svg#icon-menu"></use>
+      </svg> -->
+    </div>
+  </div>
+  <!--  M O D A L   M E N U  -->
+  <aside class="header--mobile_menu_panel">
+    <div class="header--mobile_menu_navigation">
+      <nav class="header--navigation_menu_modal">
+        <ul class="header--menu_list_modal">
+          <li class="header--menu_item_modal">
+            <a
+              onclick="openModal()"
+              href="index.html"
+              class="header--navigation_link_modal current active"
+              >Home</a
+            >
+          </li>
+          <li class="header--menu_item_modal">
+            <a
+              onclick="openModal()"
+              href="#about_section"
+              class="header--navigation_link_modal current"
+              >About Us</a
+            >
+          </li>
+          <li class="header--menu_item_modal">
+            <a
+              onclick="openModal()"
+              href="#catalog_section"
+              class="header--navigation_link_modal current"
+              >Catalog</a
+            >
+          </li>
+          <li class="header--menu_item_modal">
+            <a
+              onclick="openModal()"
+              href="#sale_section"
+              class="header--navigation_link_modal current"
+              >Sale</a
+            >
+          </li>
+          <li class="header--menu_item_modal">
+            <a
+              onclick="openModal()"
+              href="#reviews_section"
+              class="header--navigation_link_modal current"
+              >Reviews
+            </a>
+          </li>
+          <li class="header--menu_item_modal">
+            <a
+              onclick="openModal()"
+              href="#contact_section"
+              class="header--navigation_link_modal current"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <address class="header--address_modal">
+        <ul class="header--social_list_modal">
+          <li class="header--social_item_modal">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              class="header--social_link_modal"
+            >
+              <svg class="socia_ico" width="20" height="20">
+                <use href="/img/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header--social_item_modal">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="header--social_link_modal"
+            >
+              <svg class="socia_ico" width="20" height="20">
+                <use href="/img/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header--social_item_modal">
+            <a
+              href="/img/icons.svg#icon-youtube"
+              class="header--social_link_modal"
+            >
+              <svg class="socia_ico" width="20" height="20">
+                <use href="/img/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
+  </aside>
 </header>
