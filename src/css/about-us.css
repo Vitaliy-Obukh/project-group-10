@@ -5,7 +5,7 @@
 
 .about-us-section{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .about-us-cont{
