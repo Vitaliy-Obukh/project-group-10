@@ -13,7 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/project-group-10/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group-10/assets/index-D2-EyCQP.css">
+    <link rel="stylesheet" crossorigin href="/project-group-10/assets/index-Cx8Lgtmh.css">
   </head>
   <body>
     <header class="header-page">
@@ -25,19 +25,19 @@
           <a href="index.html" class="header-nav-link current">Home</a>
         </li>
         <li class="header-nav-item">
-          <a href="about_section" class="header-nav-link">About us</a>
+          <a href="#about_section" class="header-nav-link">About us</a>
         </li>
         <li class="header-nav-item">
-          <a href="catalog_section" class="header-nav-link">Catalog</a>
+          <a href="#catalog_section" class="header-nav-link">Catalog</a>
         </li>
         <li class="header-nav-item">
-          <a href="sale_section" class="header-nav-link">Sale</a>
+          <a href="#sale_section" class="header-nav-link">Sale</a>
         </li>
         <li class="header-nav-item">
-          <a href="reviews_section" class="header-nav-link">Reviews</a>
+          <a href="#reviews_section" class="header-nav-link">Reviews</a>
         </li>
         <li class="header-nav-item">
-          <a href="contact_section" class="header-nav-link">Contact us</a>
+          <a href="#contact_section" class="header-nav-link">Contact us</a>
         </li>
       </ul>
     </nav>
@@ -85,6 +85,7 @@
         <ul class="header--menu_list_modal">
           <li class="header--menu_item_modal">
             <a
+              onclick="openModal()"
               href="index.html"
               class="header--navigation_link_modal current active"
               >Home</a
@@ -92,33 +93,40 @@
           </li>
           <li class="header--menu_item_modal">
             <a
-              href="about_section"
+              onclick="openModal()"
+              href="#about_section"
               class="header--navigation_link_modal current"
               >About Us</a
             >
           </li>
           <li class="header--menu_item_modal">
             <a
-              href="catalog_section"
+              onclick="openModal()"
+              href="#catalog_section"
               class="header--navigation_link_modal current"
               >Catalog</a
             >
           </li>
           <li class="header--menu_item_modal">
-            <a href="sale_section" class="header--navigation_link_modal current"
+            <a
+              onclick="openModal()"
+              href="#sale_section"
+              class="header--navigation_link_modal current"
               >Sale</a
             >
           </li>
           <li class="header--menu_item_modal">
             <a
-              href="reviews_section"
+              onclick="openModal()"
+              href="#reviews_section"
               class="header--navigation_link_modal current"
               >Reviews
             </a>
           </li>
           <li class="header--menu_item_modal">
             <a
-              href="contact_section"
+              onclick="openModal()"
+              href="#contact_section"
               class="header--navigation_link_modal current"
               >Contact Us</a
             >
@@ -172,20 +180,40 @@
       <section id="about_section" class="about-us section-wrap">
   <div class="container about-us-section">
     <div class="about-us-cont">
-      <h2 class="about-us-title">
-        About Us
-      </h2>
-      <p class="about-us-info-text">Welcome to our premium watch collection, where luxury and style meet functionality and precision. Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll always have a reliable and stylish accessory on your wrist.</p>
-      <p class="about-us-info-text about-us-text-margin">At our premium watch collection, we believe that a watch is more than just a timekeeping device – it's a statement piece that reflects your personality and style. So why settle for anything less than the best? </p>
-        <a class="about-us-link-btn" href="#catalog_section">View catalog</a>
+      <h2 class="about-us-title">About Us</h2>
+      <p class="about-us-info-text">
+        Welcome to our premium watch collection, where luxury and style meet
+        functionality and precision. Our selection of timepieces embodies the
+        very best in Swiss craftsmanship and engineering, ensuring that you'll
+        always have a reliable and stylish accessory on your wrist.
+      </p>
+      <p class="about-us-info-text about-us-text-margin">
+        At our premium watch collection, we believe that a watch is more than
+        just a timekeeping device – it's a statement piece that reflects your
+        personality and style. So why settle for anything less than the best?
+      </p>
+      <a id="about_section" class="about-us-link-btn" href="#">View catalog</a>
     </div>
     <picture class="about-us-pic">
-      <source media="(min-width: 1280px)" srcset="/project-group-10/assets/rectangle-ab-us-desctop@1x-DSckVdA4.jpg 1x, /project-group-10/assets/rectangle-ab-us-desctop@2x-Cige7q6Q.jpg 2x"/>
-      <source media="(min-width: 768px)" srcset="/project-group-10/assets/rectangle-ab-us-tablet@1x-oDrN1sQG.jpg 1x, /project-group-10/assets/rectangle-ab-us-tablet@2x-D7SWfz6p.jpg 2x"/>
-      <source media="(min-width: 320px)" srcset="/project-group-10/assets/rectangle-ab-us-mobile@1x-ZrNg1v32.jpg 1x, /project-group-10/assets/rectangle-ab-us-mobile@2x-olVVVexm.jpg 2x"/>
-      <img class="about-us-img" src="../img/about-us/rectangle-ab-us-desctop@1x.jpg" alt="image"/>
+      <source
+        media="(min-width: 1280px)"
+        srcset="/project-group-10/assets/rectangle-ab-us-desctop@1x-DSckVdA4.jpg 1x, /project-group-10/assets/rectangle-ab-us-desctop@2x-Cige7q6Q.jpg 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/project-group-10/assets/rectangle-ab-us-tablet@1x-oDrN1sQG.jpg 1x, /project-group-10/assets/rectangle-ab-us-tablet@2x-D7SWfz6p.jpg 2x"
+      />
+      <source
+        media="(min-width: 320px)"
+        srcset="/project-group-10/assets/rectangle-ab-us-mobile@1x-ZrNg1v32.jpg 1x, /project-group-10/assets/rectangle-ab-us-mobile@2x-olVVVexm.jpg 2x"
+      />
+      <img
+        class="about-us-img"
+        src="../img/about-us/rectangle-ab-us-desctop@1x.jpg"
+        alt="image"
+      />
     </picture>
-</div>
+  </div>
 </section>
 
       <section id="catalog_section" class="catalog">
@@ -196,11 +224,11 @@
   <div class="container"></div>
 </section>
 
-      <section id="#sale_section" class="sale">
+      <section id="sale_section" class="sale">
   <div class="container"></div>
 </section>
 
-      <section id="#reviews_section" class="reviews section-wrap">
+      <section id="reviews_section" class="reviews section-wrap">
   <div class="container"></div>
 </section>
 
