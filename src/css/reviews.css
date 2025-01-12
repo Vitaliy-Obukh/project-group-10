@@ -18,13 +18,13 @@
     color: #0c0c0c;
     text-align: left;
     margin-bottom: 40px;
+    
 }
 
 .ul-foto-reviews {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
+    gap: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -112,6 +112,5 @@
     .ul-foto-reviews {
         display: flex;
         gap: 20px;
-        
     }
 }
