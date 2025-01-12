@@ -1,4 +1,7 @@
 /* Styles for Mobile devices */
+* {
+  box-sizing: border-box;
+}
 .container {
   min-width: 320px;
   max-width: 375px;
