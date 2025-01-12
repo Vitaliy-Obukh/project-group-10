@@ -1,4 +1,10 @@
 .header-page {
+  height: 74px;
+
+  position: sticky;
+  top: 0;
+
+  background: var(--background);
   border-bottom: 2px solid #f3f3f3;
 }
 
@@ -6,7 +12,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow-x: hidden;
 }
 
 .header-nav-list,
@@ -40,6 +45,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .header-page {
+    height: 88px;
+  }
   .header-logo {
     padding: 26px 0;
 
@@ -55,9 +63,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .header-container {
-    padding-inline: 65px;
-  }
 
   .header-logo {
     margin-right: 203px;
@@ -79,6 +84,7 @@
 
   .header-nav-link {
     font-size: 14px;
+    font-weight: 500;
     line-height: 1.3;
   }
 
