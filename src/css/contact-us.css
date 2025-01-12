@@ -167,7 +167,7 @@
         display: block;
         width: 530px;
         height: 556px;
-        margin-left: 40px;  
+        margin-left: auto;  
     }
     .image-box-mobile, .image-box-tablet {
         display: none;
