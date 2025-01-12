@@ -1,2 +1,237 @@
-.sale {
+.sale-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.sale-image-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 5px;
+    margin-bottom: 20px;
+}
+
+.sale-image-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    width: 80px;
+    height: 80px;
+    background-color: #f3f3f3;
+    padding: 13px 14px;
+}
+
+.sale-image-item.main{
+    border-radius: 30px;
+    padding: 50px;
+    width: 335px;
+    height: 385px;
+}
+
+.sale-watch-picture {
+    width: 52px;
+    height: 54px;
+}
+
+.sale-watch-img {
+    width: 52px;
+    height: 54px;
+}
+
+.sale-main-watch-img{
+    width: 235px;
+    height: 285px;
+}
+
+/* Text block*/
+
+.sale-text-block {
+    border-radius: 30px;
+    background-color: #3350e9;
+    padding: 48px 28px;
+}
+
+.sale-text-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.sale-text-tag {
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 20px;
+}
+
+.sale-price {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 28px;
+}
+
+.sale-actual-price {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(251, 251, 251, 0.1);
+}
+
+.sale-old-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+    padding: 9px 0px;
+}
+
+.sale-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em; 
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+.sale-tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sale-tag-item {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33333;
+    color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-title {
+        font-size: 48px;
+        line-height: 0.91667;
+        margin-bottom: 40px;
+    }
+
+    .sale-image-list {
+        margin-bottom: 40px;
+        max-height: 558px;
+        flex-direction: column;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+
+    .sale-image-item {
+        border-radius: 20px;
+        width: 132px;
+        height: 132px;
+        padding: 16px 18px;
+    }
+
+    .sale-watch-picture {
+        width: 96px;
+        height: 100px;
+    }
+
+    .sale-watch-img {
+        width: 96px;
+        height: 100px;
+    }
+
+    .sale-image-item.main {
+        border-radius: 50px;
+        width: 552px;
+        height: 558px;
+        padding: 80px 112px;
+    }
+    .sale-main-watch-img {
+        width: 328px;
+        height: 398px;
+    }
+
+    /* Text block*/
+
+    .sale-text-block {
+       padding: 60px; 
+       border-radius: 50px;
+    }
+
+    .sale-text-title {
+        font-size: 32px;
+        line-height: 1.125;
+    }
+
+    .sale-price {
+        margin-bottom: 30px;
+    }
+
+    .sale-actual-price {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .sale-text {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 41px;
+    }
+
+    .sale-tag-list {
+        max-width: 398px;
+    }
+
+    .sale-tag-item {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .sale-block-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sale-image-list {
+        margin-bottom: 0;
+    }
+
+    .sale-image-item.main {
+        width: 428px;
+        padding: 80px 50px;
+    }
+
+    /* Text block*/
+
+    .sale-text-block {
+        max-width: 530px;
+        max-height: 558px;
+    }
+
+    .sale-text {
+        margin-bottom: 40px;
+    }
+
+    .sale-tag-list {
+        margin-right: 12px;
+    }
 }
