@@ -1,43 +1,40 @@
-.advertisement {
-  padding: 30px 0;
+.advertisement_block {
   background-color: #0c0c0c;
-  margin: 0 auto;
   background-image: url(../img/advertisement/bg-img-mobile@1x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 320px;
   height: auto;
   border-radius: 30px;
 }
+
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .advertisement {
+  .advertisement_block {
     background-image: url(../img/advertisement/bg-img-mobile@2x.webp);
   }
 }
 @media screen and (min-width: 768px) {
-  .advertisement {
-    max-width: 704px;
-    padding: 40px 0;
+  .advertisement_block {
+   
     background-image: url(../img/advertisement/bg-img-tablet@1x.webp);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
   (min-resolution: 192dpi) and (min-width: 768px) {
-  .advertisement {
+  .advertisement_block {
     background-image: url(../img/advertisement/bg-img-tablet@2x.webp);
   }
 }
 @media screen and (min-width: 1280px) {
-  .advertisement {
+  .advertisement_block {
     max-width: 1150px;
-    padding: 50px 0;
+   
     background-image: url(../img/advertisement/bg-img-desctop@1x.webp);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
   (min-resolution: 192dpi) and (min-width: 1280px) {
-  .advertisement {
+  .advertisement_block {
     background-image: url(../img/advertisement/bg-img-desctop@2x.webp);
   }
 }
