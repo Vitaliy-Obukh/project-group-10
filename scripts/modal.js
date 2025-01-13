@@ -1,3 +1,6 @@
+'use strict';
+
+
 function openModal() {
     const button = document.querySelector('.header--mobile_menu');
     const buttonClose = document.querySelector('.header--mobile_menu_close');

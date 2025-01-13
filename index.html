@@ -13,7 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/project-group-10/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group-10/assets/index-Zb-WEp80.css">
+    <link rel="stylesheet" crossorigin href="/project-group-10/assets/index-CSy5opoi.css">
   </head>
   <body>
     <header class="header-page">
@@ -22,22 +22,47 @@
       <a href="index.html" class="header-logo">WatchCharm</a>
       <ul class="header-nav-list">
         <li class="header-nav-item">
-          <a href="index.html" class="header-nav-link current">Home</a>
+          <a href="index.html" class="header-nav-link current active_link"
+            >Home</a
+          >
         </li>
         <li class="header-nav-item">
-          <a href="#about_section" class="header-nav-link">About us</a>
+          <a
+            onclick="getActive()"
+            data-="about_link"
+            href="#about_section"
+            class="header-nav-link"
+            >About us</a
+          >
         </li>
         <li class="header-nav-item">
-          <a href="#catalog_section" class="header-nav-link">Catalog</a>
+          <a
+            onclick="getActive()"
+            href="#catalog_section"
+            class="header-nav-link"
+            >Catalog</a
+          >
         </li>
         <li class="header-nav-item">
-          <a href="#sale_section" class="header-nav-link">Sale</a>
+          <a onclick="getActive()" href="#sale_section" class="header-nav-link"
+            >Sale</a
+          >
         </li>
         <li class="header-nav-item">
-          <a href="#reviews_section" class="header-nav-link">Reviews</a>
+          <a
+            onclick="getActive()"
+            href="#reviews_section"
+            class="header-nav-link"
+            >Reviews</a
+          >
         </li>
         <li class="header-nav-item">
-          <a href="#contact_section" class="header-nav-link">Contact us</a>
+          <a
+            onclick="getActive()"
+            href="#contact_section"
+            class="header-nav-link"
+            >Contact us</a
+          >
         </li>
       </ul>
     </nav>
@@ -175,6 +200,7 @@
   <div class="container"></div>
 </section>
 
+
       <section id="about_section" class="about-us section-wrap">
   <div class="container about-us-section">
     <div class="about-us-cont">
@@ -190,7 +216,9 @@
         just a timekeeping device – it's a statement piece that reflects your
         personality and style. So why settle for anything less than the best?
       </p>
-      <a id="about_section" class="about-us-link-btn" href="#">View catalog</a>
+      <a id="about_section" class="about-us-link-btn" href="#catalog_section"
+        >View catalog</a
+      >
     </div>
     <picture class="about-us-pic">
       <source
@@ -634,6 +662,7 @@
 </footer>
 
 
-    <script src="/project-group-10/modal.js"></script>
+    <script src="/project-group-10/scripts/modal.js"></script>
+    <script src="/project-group-10/scripts/activeLink.js"></script>
   </body>
 </html>
