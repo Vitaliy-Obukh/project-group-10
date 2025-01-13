@@ -29,8 +29,11 @@ button {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
+}
+
+h1 {
+  line-height: 0.95;
 }
 
 h2 {

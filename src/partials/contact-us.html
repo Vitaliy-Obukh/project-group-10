@@ -1,3 +1,66 @@
 <section id="contact_section" class="contact-us">
-  <div class="container"></div>
+  <div class="container contact-us-screen">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="contact-us-box">
+      <form class="contact-us-form">
+        <p class="contact-us-decription">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+
+        <input
+          type="text"
+          name="user-name"
+          class="input"
+          id="user-name"
+          required
+          placeholder="Name"
+        />
+        <input
+          type="email"
+          name="user-email"
+          class="input"
+          id="user-email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          required
+          placeholder="Email"
+        />
+        <input
+          type="tel"
+          name="user-phone"
+          class="input"
+          id="user-phone"
+          pattern="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+          required
+          placeholder="+380"
+        />
+        <textarea
+          id="user-comment"
+          class="user-comment"
+          name="user-comment"
+          placeholder="Comment"
+        ></textarea>
+        <button class="btn-contact-us" type="submit">Send</button>
+      </form>
+
+      <img
+        class="image-box-mobile image-box"
+        src="/img/contact-us/watch-cntc-us-mobile@1x.jpg"
+        srcset="/img/contact-us/watch-cntc-us-mobile@2x.jpg 2x"
+        alt="watch"
+      />
+      <img
+        class="image-box-tablet image-box"
+        src="/img/contact-us/watch-cntc-us-tablet@1x.jpg"
+        srcset="/img/contact-us/watch-cntc-us-tablet@2x.jpg 2x"
+        alt="watch"
+      />
+      <img
+        class="image-box-screen image-box"
+        src="/img/contact-us/watch-cntc-us-desctop@1x.jpg"
+        srcset="/img/contact-us/watch-cntc-us-desctop@2x.jpg 2x"
+        alt="watch"
+      />
+    </div>
+  </div>
 </section>
