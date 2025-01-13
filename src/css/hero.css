@@ -1,4 +1,3 @@
-
 /* MAIN */
 
 ul {
@@ -8,14 +7,11 @@ ul {
 }  
 .container{
     background-color: #fbfbfb;
-    
-}
-
-
+   }
 
 /* HERO SECTION */
 
-.text-imgs-div{
+.text-imgs-div {
   padding: 60px 0px 28px;
     display: flex;
     justify-content: space-between;
@@ -24,57 +20,55 @@ ul {
     gap: 28px;
 }
 
-.hero-h{
+.hero-h {
     font-weight: 600;
     font-size: 40px;
     line-height: 0.95;
     letter-spacing: -0.02em;
-    
     font-family: inherit;
-   
-}
-.hero-span{
+ }
+
+.hero-span {
     color: #3350E9;
 }
- .hero-p{
+
+ .hero-p {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.28571;
 letter-spacing: -0.02em;
 color: rgba(12, 12, 12, 0.7);
-
  }
- .hero-text{
-    display: flex;
+
+ .hero-text {
+display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
 gap: 20px;
-
  }
  
- .hero-imgs{
+ .hero-imgs {
   width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: end;
-    
-
  }
- .hero-users{
+
+ .hero-users {
   max-width: 108px;
  }
- .hero-users-list{
+
+ .hero-users-list {
   padding-left: 15px;
     display: flex;
     height: 100%;
  }
 
- .hero-user-item{
+ .hero-user-item {
   width: 40px;
     height: 40px;
  }
- 
  
   .hero-piple {
     margin-left: -16.35px;
@@ -82,22 +76,19 @@ gap: 20px;
     height: 40px;
   }
  
- 
-
- .hero-button{
+ .hero-buttonт {
   font-weight: 500;
   font-size: 14px;
     line-height: 1.3;
     letter-spacing: -0.02em;
     text-decoration: underline;
-   
- }
+    }
 
- .hero-button:hover{
+ .hero-button:hover {
     color: #3350E9;
  }
  
- .hero-pic{
+ .hero-pic {
     background: rgba(12, 12, 12, 0.2);
     border-radius: 30px;
     background-color: #fbfbfb;
@@ -107,24 +98,23 @@ gap: 20px;
   .text-imgs-div{
       padding: 80px 0px 40px;
       gap: 0;
-          
     }
  
-    .hero-text{
+    .hero-text {
       max-width: 557px;   
     }
-    .hero-h{
+   
+    .hero-h {
         font-size: 70px;
         line-height: 0.85714;;
-         
-    }
-    .hero-p{
+      }
+   
+    .hero-p {
         font-size: 16px;
         line-height: 1.25;
-        
-    }
+       }
+   
     .hero-users{
-      
       position: relative;
       max-width: 135px;
       height: 60px;
@@ -136,47 +126,36 @@ gap: 20px;
       width: 56px;
       height: 56px;
   }
-  .hero-users-item{
+   
+  .hero-users-item {
     width: 60px;
   }
 
-.hero-imgs{
+.hero-imgs {
   width:auto;
    flex-direction: column;
 }
-
     }
-
-   
-   
-    
  
  @media screen and (min-width: 1280px) {
-    
-    .hero-h{
+    .hero-h {
         font-size: 72px;
         line-height: 0.85714;;
-       
-    }
-    .hero-p{
+       }
+   
+    .hero-p {
         font-size: 16px;
         padding-right: 70px;
-       
         height: 60px;
-    }
-    .hero-users{
+    } 
+   
+    .hero-users {
       max-width: 145px;
-      
-    }
+      }
+   
     .hero-piple {
       width: 60px;
       height: 60px;
       position: absolute;
-     
-  }
-  
-  
- }
-
-
-
+     }
+   }
