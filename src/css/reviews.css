@@ -89,6 +89,12 @@
     margin-bottom: 24px;
 }
 
+.foto-reviews {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
 @media screen and (min-width: 768px) {
     .title-section-foto-reviews {
         font-size: 48px;
@@ -112,7 +118,16 @@
         width: 344px;
         height: 272px;
     }
+}
 
+@media screen and (min-width: 1280px) {
+    .ul-foto-reviews {
+        gap: 20px;
+        overflow: hidden;
+    }
+    .list-foto-reviews {
+        width: 370px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
