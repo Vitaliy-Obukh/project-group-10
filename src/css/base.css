@@ -38,10 +38,9 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
   margin: 0;
   font-family: 'Gilroy', sans-serif;
+  background-color: #fbfbfb;
 }
 
 main {
