@@ -29,3 +29,14 @@ body {
 main {
   flex-grow: 1;
 }
+
+#about_section,
+#catalog_section,
+#contact_section,
+#reviews_section{
+  scroll-margin-top: 60px;
+}
+
+#sale_section  {
+  scroll-margin-top: 10px;
+}
