@@ -1,7 +1,6 @@
 @media screen and (min-width: 320px) and (max-width: 1279.98px) {
   
   /*  M O B I L E  I C O N  */
-
   .header--mobile_menu,
   .header--mobile_menu_close {
     z-index: 9999;
@@ -19,7 +18,7 @@
   .header--mobile_menu_close {
     position: absolute;
     top: 20px;
-    right: 30px;
+    right: 25px;
 
     z-index: 9999;
   }
@@ -56,7 +55,7 @@
     transform: rotate(135deg);
 
     background-color: #f3f3f3;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in 0.5;
   }
 
   .header--mobile_menu_close.is-active::after {
@@ -64,13 +63,8 @@
     transform: rotate(-135deg);
 
     background-color: #f3f3f3;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in 0.5;
   }
-
-  /* .header--mobile_menu_close.is-active {
-    
-  } */
-
   /*  M O B I L E   N A V I G A T I O N  */
 
   .header--mobile_menu_panel {
@@ -86,7 +80,7 @@
     background-color: rgba(12, 12, 12, 0.5);
 
     opacity: 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in;
   }
 
   .header--mobile_menu_panel.is-active {
@@ -100,24 +94,25 @@
 
   .header--mobile_menu_navigation {
     position: absolute;
+    top: 0;
+    bottom: 0;
     right: 0;
 
     width: 0;
-
-    height: 100%;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     background-color: rgba(12, 12, 12, 0.95);
-    background: url(/img/modal/modalBack.jpg) no-repeat 10% 30%;
+    background: url(/img/modal/modalBack.jpg) no-repeat;
 
     opacity: 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in;
   }
 
   .header--mobile_menu_navigation.is-active {
+    transition: all 0.2s ease-in-out;
     width: clamp(200px, 60%, 330px);
     opacity: 1;
   }
@@ -145,24 +140,8 @@
     line-height: 129%;
 
     opacity: 0;
-    transition: color 0.5s ease 0.4;
+    transition: all 0.5s ease-in 1s;
   }
-
-  /* .header--navigation_link_modal::before {
-                position: absolute;
-    
-                transform: translate(50%, 0);
-                right: 50%;
-                bottom: -13px;
-            
-                content: '';
-                width: 0.5rem;
-                height: 0.5rem;
-                background-color: var(--accent);
-                border-radius: 100%;
-            
-                opacity: 0;
-            } */
 
   .header--mobile_menu_navigation.is-active .header--navigation_link_modal {
     display: block;
