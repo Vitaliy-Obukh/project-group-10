@@ -111,7 +111,7 @@
     justify-content: space-between;
 
     background-color: rgba(12, 12, 12, 0.95);
-    background: url(/modalBack.jpg) no-repeat 10% 30%;
+    background: url(/img/modal/modalBack.jpg) no-repeat 10% 30%;
 
     opacity: 0;
     transition: all 0.3s ease-in-out;
@@ -210,10 +210,12 @@
 
   .socia_ico {
     fill: var(--background);
+    opacity: 0.8;
   }
 
-  .header--social_item_modal:hover .socia_ico {
-    fill: var(--accent);
+  .header--social_item_modal:hover .socia_ico,
+  .header--social_item_modal:focus .socia_ico {
+    opacity: 1;
   }
 
   .header--navigation_link_modal.current {
