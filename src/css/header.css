@@ -87,16 +87,14 @@
     opacity: 0;
   }
 
-  /* .header-nav-link:last-child::after {
-    transform: translateX(40px);
-  } */
-
   .header-nav-link.current::after {
     transform: translateX(-3px);
     opacity: 1;
   }
 
-  .header-nav-link.active_link::after  {
+  .header-nav-link.active_link::after,
+  .header-nav-link:hover::after,
+  .header-nav-link:focus::after   {
     transform: translateX(-3px);
 
     transition: all 0.4s ease-in-out;

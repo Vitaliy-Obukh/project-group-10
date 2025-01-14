@@ -73,7 +73,8 @@ gap: 20px;
   text-decoration: underline;
     }
 
- .hero-button:hover {
+    .hero-button:focus,
+    .hero-button:hover {
     color: #3350E9;
  }
  

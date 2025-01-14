@@ -10,7 +10,7 @@
 
         <input
           type="text"
-          name="user-name"
+          name="name"
           class="input"
           id="user-name"
           required
@@ -18,7 +18,7 @@
         />
         <input
           type="email"
-          name="user-email"
+          name="email"
           class="input"
           id="user-email"
           pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
@@ -26,23 +26,22 @@
           placeholder="Email"
         />
         <input
-          type="tel"
-          name="user-phone"
+          type="phone"
+          name="phone"
           class="input"
           id="user-phone"
-          pattern="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+          pattern="^\+\d{3}\d{2}\d{3}\d{2}\d{2}$"
           required
           placeholder="+380"
         />
         <textarea
           id="user-comment"
           class="user-comment"
-          name="user-comment"
+          name="textarea"
           placeholder="Comment"
         ></textarea>
         <button class="btn-contact-us" type="submit">Send</button>
       </form>
-
       <img
         class="image-box-mobile image-box"
         src="/img/contact-us/watch-cntc-us-mobile@1x.jpg"
