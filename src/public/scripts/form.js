@@ -17,7 +17,7 @@ function formMassage(event) {
     
     alert(`
            Ваш е-мейл: ${email}
-           Вітаю Вас, ${name}
+           Вітаю Вас , ${name}
            Ваш номер телефону: ${phone}
            Ваше повідомлення: ${textarea}
         `
