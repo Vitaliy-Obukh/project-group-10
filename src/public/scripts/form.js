@@ -15,15 +15,11 @@ function formMassage(event) {
     const phone = form.phone.value;
     const textarea = form.textarea.value;
     
-    alert(`Ваш е-мейл: ${email}
+    alert(`
+           Ваш е-мейл: ${email}
            Вітаю Вас, ${name}
            Ваш номер телефону: ${phone}
            Ваше повідомлення: ${textarea}
-
-            Вас вітає команда курсу FullStack Developer
-                           CodeQuest
-                Ми бажаємо усім успіху та натхнення 
-                           До зустрічі !
         `
     );
 
