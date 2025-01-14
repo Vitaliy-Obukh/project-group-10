@@ -66,8 +66,8 @@
 .catalog-img {
     width: 100%;
     margin-bottom: 10px;
-
-    transition: all 0.4s ease-in;
+    
+    transition: all 0.3s ease-in;
 }
 
 .catalog-subtitle {
@@ -142,6 +142,7 @@
 }
 
 .catalog-item:hover .catalog-img{
+    filter: drop-shadow(0 0 0.9rem rgb(93, 92, 92));
     transform: scale(1.1);
-    transition: all 0.4s ease-in;
+    transition: all 0.3s linear;
 }

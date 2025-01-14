@@ -55,7 +55,7 @@
     transform: rotate(135deg);
 
     background-color: #f3f3f3;
-    transition: all 0.3s ease-in 0.5;
+    transition: all 0.3s linear 0.5;
   }
 
   .header--mobile_menu_close.is-active::after {
@@ -63,7 +63,7 @@
     transform: rotate(-135deg);
 
     background-color: #f3f3f3;
-    transition: all 0.3s ease-in 0.5;
+    transition: all 0.3s linear 0.5;
   }
   /*  M O B I L E   N A V I G A T I O N  */
 
@@ -80,7 +80,7 @@
     background-color: rgba(12, 12, 12, 0.5);
 
     opacity: 0;
-    transition: all 0.1s ease-in;
+    transition: all 0.3s linear;
   }
 
   .header--mobile_menu_panel.is-active {
@@ -90,6 +90,7 @@
     width: 100%;
 
     opacity: 1;
+    transition: all 0.2 s linear;
   }
 
   .header--mobile_menu_navigation {
@@ -105,14 +106,14 @@
     justify-content: space-between;
 
     background-color: rgba(12, 12, 12, 0.95);
-    background: url(/img/modal/modalBack.jpg) no-repeat;
+    background: url(/img/modal/modalBack.jpg) no-repeat 20% 20%;
 
     opacity: 0;
-    transition: all 0.1s ease-in;
+    transition: all 0.4s linear;
   }
 
   .header--mobile_menu_navigation.is-active {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s linear;
     width: clamp(200px, 60%, 330px);
     opacity: 1;
   }
@@ -140,7 +141,9 @@
     line-height: 129%;
 
     opacity: 0;
-    transition: all 0.5s ease-in 1s;
+    transition: all 0.5s linear 1s;
+
+    text-wrap: nowrap;
   }
 
   .header--mobile_menu_navigation.is-active .header--navigation_link_modal {
