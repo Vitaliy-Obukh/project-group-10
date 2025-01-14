@@ -55,9 +55,9 @@
 }
 @media screen and (min-width: 1280px) {
   .advertisement-container-content {
+    flex-wrap: nowrap;
     padding: 83px 80px;
     gap: 140px;
-    flex-wrap: nowrap;
     align-items: baseline;
   }
 }

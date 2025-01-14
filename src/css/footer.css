@@ -25,7 +25,7 @@
 }
 
 .footer--tell_mobile {
-  width: 151px;
+  min-width: 151px;
   height: 43px;
 
   display: flex;
