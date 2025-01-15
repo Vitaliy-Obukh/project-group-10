@@ -96,16 +96,13 @@
     top: 0;
     bottom: 0;
     right: 0;
-
     width: 0;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     background-color: rgba(12, 12, 12, 0.95);
-    background-image: url(/img/modal/modalBack.jpg) no-repeat;
-    object-fit: cover;
+    background: url(/img/modal/modalBack.jpg) center;
+    background-size: cover;
     opacity: 0;
     transition: all 0.3s linear;
   }
