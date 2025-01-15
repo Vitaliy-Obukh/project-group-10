@@ -1,5 +1,4 @@
 @media screen and (min-width: 320px) and (max-width: 1279.98px) {
-  
   /*  M O B I L E  I C O N  */
   .header--mobile_menu,
   .header--mobile_menu_close {
@@ -24,8 +23,7 @@
   }
 
   .header--mobile_menu::before,
-  .header--mobile_menu_close::before
-   {
+  .header--mobile_menu_close::before {
     content: '';
 
     width: 100%;
@@ -106,7 +104,7 @@
     justify-content: space-between;
 
     background-color: rgba(12, 12, 12, 0.95);
-    background: url(/img/modal/modalBack.jpg) no-repeat 20% 20%;
+    background: url(/img/modal/modalBack.jpg) center;
 
     opacity: 0;
     transition: all 0.3s linear;
@@ -141,7 +139,7 @@
     line-height: 129%;
 
     opacity: 0;
-    
+
     transition: all 0.5s linear;
 
     text-wrap: nowrap;
@@ -236,7 +234,3 @@
     display: none;
   }
 }
-
-
-
-
